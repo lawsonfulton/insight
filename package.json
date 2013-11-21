@@ -1,23 +1,21 @@
 {
   "name": "insight",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The Quantified Self Web App",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/zero-impact/insight.git"
   },
-  "author": "",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/zero-impact/insight/issues"
-  },
   "homepage": "https://github.com/zero-impact/insight",
   "dependencies": {
-    "express": "~3.4.4",
-    "everyauth": "~0.4.5"
+    "express": "3.4.4",
+    "everyauth": "~0.4.5",
+    "jade": "*"
   }
 }
